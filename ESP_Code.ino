@@ -33,7 +33,7 @@ void setup() {
   dht.begin();
   lcd.init();
   lcd.backlight();
-  WiFi.begin("Nointernet","Nigganigganeinei");
+  WiFi.begin("PPut your WiFi SSID","Put your WiFi password");
   while(WiFi.status()!=WL_CONNECTED){
     delay(500);
     Serial.print(".");
